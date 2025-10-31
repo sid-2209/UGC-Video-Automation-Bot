@@ -20,7 +20,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 This project automates the creation of professional UGC-style videos for products through conversational interfaces such as Telegram and WhatsApp.  
 Users upload product images, select styles, and receive AI-generated videos within minutes.
