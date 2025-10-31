@@ -36,7 +36,7 @@ E-commerce product showcases, UGC content for marketers, agency-scale content cr
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - 💬 **Multi-Channel Support** - Telegram & WhatsApp bots
@@ -54,7 +54,7 @@ E-commerce product showcases, UGC content for marketers, agency-scale content cr
 - 🔍 **Error Recovery** - Automatic retry and fallback
 - 🌐 **Webhook Support** - Real-time message handling
 
-## 🎥 Demo
+## Demo
 
 ### User Flow
 
@@ -91,7 +91,7 @@ E-commerce product showcases, UGC content for marketers, agency-scale content cr
 | Generation time | 60-180 seconds (model-dependent) |
 | Cost per video | $0.05 - $1.20 (model-dependent) |
 
-## 🏗️ Architecture
+## Architecture
 
 ### System Overview
 
@@ -140,7 +140,7 @@ NEW → WAITING_IMAGE → WAITING_PROMPT → WAITING_CHARACTER
 → [READY_TO_POST | WAITING_REVISION_INPUT] → COMPLETED
 ```
 
-## 📦 Prerequisites
+## Prerequisites
 
 ### Required Services
 
@@ -164,7 +164,7 @@ NEW → WAITING_IMAGE → WAITING_PROMPT → WAITING_CHARACTER
 - **Instagram Graph API** - For posting to Instagram
 - **Facebook Graph API** - For posting to Facebook Pages
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone Repository
 
@@ -256,7 +256,7 @@ curl -X POST \
 
 Send `/start` to your Telegram bot!
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -304,7 +304,7 @@ Upload your product image to start! 📸`;
 return [{ json: { message_text: message } }];
 ```
 
-## 📖 Usage
+## Usage
 
 ### For End Users
 
@@ -316,7 +316,7 @@ return [{ json: { message_text: message } }];
 6. **Review:** Receive video in 1-3 minutes
 7. **Action:** Approve, revise, or start over
 
-## 🛠️ Development
+## Development
 
 ### Project Structure
 
@@ -336,7 +336,7 @@ ugc-video-automation/
 └── README.md
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 
@@ -347,7 +347,7 @@ Contributions are welcome! Please:
 5. Open a Pull Request
 
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
